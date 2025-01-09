@@ -37,8 +37,16 @@ Data transformation is important for data analysis, there is a format difference
 - Rezah Aurellia's customer data fills the "Durasi Pengerjaan berapa hari" column with a range of 5-7 days, which makes it difficult to analyze. So the value is adjusted by calculating the average, so it becomes 4 days.
 - Pristia's customer data fills the “Durasi Pengerjaan berapa hari” column in 1 month format, which should use the day format. The value is converted to 30 days.
 
-## Exploratory Data Analysis and Data Storytelling
+## Exploratory Data Analysis and Data Insight
 
-## Screenshots
+![App Screenshot](./images/visualisasi-1.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+From this chart, we can observe the distribution of service completion durations by Braincore. The majority of services are completed within a relatively short period of time, as the probability of survival decreases significantly during the first few days.
+
+![App Screenshot](./images/word-cloud.png)
+
+From the data, it can be illustrated that the most frequently occurring words, such as“ada”, “lebih”, “tidak”, “pelayanan” have larger visualizations. This makes it easier to quickly identify the key words contained in the feedback from user ratings.
+
+![App Screenshot](./images/word-frequencies.png)
+
+From the data, it can be illustrated that frequently occurring words, such as  “ada”, “lebih”, “tidak”, “pelayanan” each have a frequency of occurrence of two times. Thus, the main words in the suggestions or feedback from user ratings can be easily seen.
